@@ -1,0 +1,26 @@
+body{font-family:Arial;
+    background:#f4f6f8}
+
+main{max-width:700px;
+    margin:50px auto;
+    padding:20px}
+
+form{display:flex;
+    gap:8px}
+
+input,select,button{padding:10px}
+
+input{flex:1}
+
+li{list-style:none;
+    background:#fff;
+    padding:12px;
+    margin:8px 0;
+    display:flex;
+    gap:10px;
+    border-radius:8px}
+
+.done{text-decoration:line-through;
+    opacity:.5}
+    
+.priority{margin-left:auto}
